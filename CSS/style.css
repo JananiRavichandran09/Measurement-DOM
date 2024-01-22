@@ -1,0 +1,138 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    margin: 20px;
+    text-align: center;
+}
+.flex-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap:10px;
+    margin-top: 60px;
+}
+
+.box1{
+    width: 310px;
+    height: 350px;
+    border: 1px solid black;
+    background-color: rgb(6, 1, 34);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+.box2 {
+    width: 310px;
+    height: 350px;
+    border: 1px solid black;
+    background-color: rgb(6, 1, 34);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+.box3 {
+    width: 310px;
+    height: 350px;
+    border: 1px solid black;
+    background-color: rgb(6, 1, 34);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+.box4 {
+    width: 310px;
+    height: 350px;
+    border: 1px solid black;
+    background-color: rgb(6, 1, 34);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+.box1 h2{
+     color: rgb(250, 223, 105);
+     margin-bottom: 30px;
+     font-size: larger;
+ }
+ .box2 h2 {
+     color: rgb(250, 223, 105);
+     margin-bottom: 30px;
+    font-size: larger;
+ }
+ .box3 h2 {
+    color: rgb(250, 223, 105);
+    margin-bottom: 30px;
+    font-size: larger;
+}
+.box4 h2 {
+    color: rgb(250, 223, 105);
+    margin-bottom: 30px;
+    font-size: larger;
+}
+.box5 h2 {
+    color: rgb(250, 223, 105);
+    margin-bottom: 30px;
+    font-size: larger;
+}
+.box6 h2 {
+    color: rgb(250, 223, 105);
+    margin-bottom: 30px;
+    font-size: larger;
+}
+input{
+   outline: none;
+    width: 220px;
+
+ }
+ button{
+    padding: 8px;
+    width: 160px;
+    background-color: rgb(250, 223, 105);
+    font-weight: bolder;
+ }
+ #result {
+    margin-top: 10px;
+    color: white;
+    font-size: large;
+ }
+ #resultcm {
+     margin-top: 10px;
+     color: white;
+     font-size: large;
+ }
+ #resultmm {
+     margin-top: 10px;
+     color: white;
+     font-size: large;
+ }
+ #resultMetre{
+     margin-top: 10px;
+     color: white;
+     font-size: large;
+ }
+ #resultKilometre {
+     margin-top: 10px;
+     color: white;
+     font-size: large;
+ }
+ #resultFoot {
+     margin-top: 10px;
+     color: white;
+     font-size: large;
+ }
+ .clear{
+    
+            padding: 8px;
+            width: 80px;
+            background-color: rgb(250, 223, 105);
+            font-weight: bolder;
+      
+ }
